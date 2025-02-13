@@ -7,6 +7,80 @@ html,
 body {
   margin: 0;
   padding: 0;
+  text-align: left;
+  min-width: 100%;
 }
 
 /* Add styles here! */
+
+header {
+  height: fit-content;
+}
+
+main {
+  height: fit-content;
+}
+
+.max-width-wrapper {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.intro-chunk {
+  min-width: fit-content;
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+div.intro-chunk > p:nth-child(2) {
+  width: 350px;
+}
+
+div.intro-chunk > p:last-child {
+  width: 300px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+section.max-width-wrapper {
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: 10px solid hsl(0deg, 0%, 60%);
+}
+
+div.card {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-top: 10px;
+  border-bottom: 5px solid hsl(0deg, 0%, 60%);
+}
+
+h2 {
+  max-width: fit-content;
+  background-color: hsl(45deg, 100%, 50%);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+  border-left: 5px solid hsl(45deg, 100%, 40%);
+  margin: 0;
+  margin-left: -10px;
+  padding: 1rem 1rem 1rem 26px;
+}
+
+div.card > p {
+  line-break: auto;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 620px;
+}
